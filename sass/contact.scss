@@ -1,0 +1,49 @@
+@import "compass/reset";
+@import "compass/css3"; 
+
+ .middle
+	{
+		width: 100%;
+		min-height: 491px;
+	}
+ .us_top
+ 	{
+ 		text-align: left;
+ 		padding-left: 49px;
+ 	}
+
+ .phone
+ 	{
+ 		border-bottom: 1px solid #e6e6e6;
+ 		width: 513px;
+
+ 	}
+ .phone_box
+ 	{
+ 		border-top: 1px solid #cdcdce;
+ 		border-bottom: 1px solid #cdcdce;
+ 		width: 513px;
+
+ 	}
+ .pc
+ 	{
+ 		margin-top: 5px;
+ 		height: 90px;
+
+
+ 	}
+ .pc_box
+ 	{
+ 		@include single-box-shadow( rgba(0,0,0,0.4), 2px, 3px, 5px, false, false);
+ 		@include border-radius(13px, 13px);
+ 	}
+ .pc_text
+ 	{
+ 		color: #9c9c9d;
+ 		font-size: 11px;
+ 		margin-top: 35px;
+ 		margin-left: 15px;
+ 		letter-spacing: 2px;
+ 		line-height: 15px;
+ 		margin-right: 68px;
+ 	}

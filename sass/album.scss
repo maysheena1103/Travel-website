@@ -1,0 +1,43 @@
+@import "compass/reset";
+@import "compass/css3"; 
+
+.us_under
+	{
+		margin-top: -17em;
+	}
+.album_b
+	{
+		height: 166px;
+		margin-bottom: 46px;
+		margin-left: 10px;
+	}
+.album_box
+	{
+		width: 165px;
+		height: 165px;
+		background: #ffffff;
+		margin-right: 21px;
+		@include box-sizing(border-box);
+		border: 1px solid #afafb0;
+	}
+.album_t
+	{
+		font-size: 10px;
+		color: #4c4341;
+		margin-left: 7px;
+		margin-top: 5px;
+
+	}
+.album_t_a
+	{
+		font-size: 7px;
+		color: #c6c6c6;
+		margin-left: 7px;
+		margin-top: 6px;
+		margin-bottom: 6px;
+
+	}
+.page 
+	{
+		padding-top: 22em;
+	}

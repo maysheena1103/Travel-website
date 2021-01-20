@@ -1,0 +1,74 @@
+@import "compass/reset";
+@import "compass/css3"; 
+
+.a_c_title
+	{
+		width: 80%;
+		height: 21px;
+		margin-left: 10px;
+		margin-top: 3px;
+	}
+.a_c_img
+	{
+		width: 528px;
+		height: 250px;
+		@include box-sizing(border-box);
+		margin-left: 12px;
+		margin-top: 32px;
+	}
+.a_c_img_a
+	{
+		width: 133px;
+		@include box-sizing(border-box);
+		height: 99.9%;
+		background: #000000;
+		padding-left: 8px;
+
+		position: relative;
+	}
+.arrow_u
+	{
+		position: absolute;
+		top: 0px;
+		left: -1px;
+		z-index: 100;
+	}
+.arrow_d
+	{
+		position: absolute;
+		bottom: 0px;
+		left: -1px;
+		z-index: 100;
+	}
+.a_c_text
+	{
+		width: 528px;
+		height: 286px;
+		font-size: 13px;
+		line-height: 16px;
+		margin-left: 12px;
+		margin-top: 30px;
+		@include box-sizing(border-box);
+	}
+.a_c_map
+	{
+		margin-top: 38px;
+		margin-left: 12px;
+		width: 362px;
+		height: 190px;
+
+	}
+.us_under
+	{
+		margin-top: -18em;
+	}
+.a_c_back
+	{
+		margin-top: 15em;
+		float: right;
+		margin-right: 3em;
+	}
+.l_img
+	{
+		margin-top: 4px;
+	}

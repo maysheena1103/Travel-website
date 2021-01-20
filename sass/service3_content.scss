@@ -1,0 +1,78 @@
+@import "compass/reset";
+@import "compass/css3"; 
+
+
+
+.us_under 
+	{
+		margin-top: -2em;
+	}
+
+.date_title
+	{
+		height: 21px;
+		margin-bottom: 43px;
+	}
+.title_ser_con
+	{
+		color: #231815;
+		font-size: 20px;
+		margin-left: 10px;
+	}
+.date_box
+	{
+		width: 497px;
+		margin-bottom: 58px;
+	}
+.date
+	{
+		width: 50px;
+		height: 19px;
+		color: #BE0D23;
+		font-size: 18px;
+	}
+.border_right
+	{
+		border-right: 2px solid #717071;
+		width: 53px;
+		height: 16px;
+		
+	}
+.date_text
+	{
+		color: #707070;
+		font-size: 13px;
+		border-bottom: 1px solid #cdcdcd;
+		padding-left: 6px;
+		line-height: 18px;
+		padding-bottom: 7px;
+		width: 436px;
+	}
+.button
+	{
+		border: none;
+		outline: none;
+		width: 80px;
+		height: 74px;
+		padding: 0px;
+		margin-top: 40px;
+		margin-left: 1em;
+		cursor: pointer;
+		@include border-radius(12px, 12px);
+		@include single-box-shadow( rgba(0,0,0,0.4), 2px, 3px, 5px, false, false)
+
+
+	}
+.button_a
+	{
+		border: none;
+		outline: none;
+		background: none;
+		width: 63px;
+		margin-top: -40px;
+		height: 19px;
+		padding: 0px;
+		margin-left: 40em;
+		cursor: pointer;
+
+	}

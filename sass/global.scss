@@ -1,0 +1,300 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+
+.float
+	{
+		float: left;
+	}
+.margin_top
+	{
+		margin-top: 27px;
+	}
+.dashed
+	{
+		border-bottom: 1px dashed rgba(156,156,157,0.8)
+	}
+.hidden
+	{
+		display: none;
+	}
+
+body{@include box-sizing(border-box)};
+
+a { text-decoration: none };
+
+
+
+
+
+
+
+.container
+	{
+		margin: 0 auto;
+		width: 1001px;
+		
+	}
+.top
+	{
+		width: 100%;
+	}
+
+/*動畫 */
+
+.swf
+	{
+		width: 1001px;
+		height: 393px;
+
+	}
+
+/*動畫 */
+
+
+
+
+
+.bg
+	{
+		width: 100%;
+		height: 515px;
+		bottom: 0px;
+		z-index: -1;
+		position: absolute;
+		background-repeat: no-repeat;
+		background-image: url(../images/main_73.png);
+	}
+
+/*main*/
+.middle
+	{
+		width: 100%;
+		min-height: 835px;
+		padding-bottom: 40px;
+		position: relative;
+	}
+.spacer {clear: both;}
+
+.left_middle
+	{
+		width: 231px;
+		margin-left: 34px;
+	}
+.left_search
+	{
+		width: 100%;
+		height: 24px;
+		margin-top: 11px;
+	}
+.search
+	{
+		width: 182px;
+		height: 21px;
+		border: 1px solid rgba(156,156,157,0.8);
+	}
+.text
+	{
+		border: none;
+		outline: none;
+	}
+.submit
+	{
+		margin-left: 5px;
+		outline: none;
+	}
+.left_map
+	{
+		width: 229px;
+		height: 348px;
+		@include border-radius(4px, 4px);
+		border: 1px solid #9c9c9d;
+		@include box-sizing(border-box);
+	}
+.map_title
+	{
+		width: 100%;
+		@include background (linear-gradient(top, #42b9cd, #179399));
+		height: 26px;
+		padding-left: 54px;
+		@include box-sizing(border-box);
+
+	}
+.font_text
+	{
+		width: 100%;
+		@include box-sizing(border-box);
+		height: 25px;
+		color: #717071;
+		text-align: center;
+		padding-top: 7px;
+		font-size: 12px;
+	}
+.left_album
+	{
+		margin-top: 32px;
+		width: 100%;
+
+	}
+.best
+	{
+		margin-left: 17px;
+	}
+.album
+	{
+		width: 100%;
+		@include box-sizing(border-box);
+		padding-top: 9px;
+		padding-left: 9px;
+		margin-top: 11px;
+		height: 90px;
+		background-color: #ffffff;
+		background-image: url(../images/main_46.png);
+	}
+.album_text
+	{
+		color: #717071;
+		width: 122px;
+		height: 50px;
+		font-size: 11px;
+		margin-left: 8px;
+	}
+.more
+	{
+		margin-left: 8px;
+		margin-top: 7px;
+	}
+.cont
+	{
+		height: 210px;
+		@include box-sizing(border-box);
+		background-color: #ffffff;
+	}
+.left_cont
+	{
+		padding-left: 17px;
+	}
+.pay
+	{
+		padding-left: 17px;
+
+	}
+
+.right_middle
+	{
+		width: 650px;
+		@include box-sizing(border-box);
+		margin-left: 48px;
+
+	}
+.menu
+	{
+		width: 100%;
+		height: 49px;
+		border: 1px solid #f9bc7d;
+		padding-left: 22px;
+		padding-top: 12px;
+		@include border-radius(4px, 4px);
+		@include box-sizing(border-box);
+		@include background (linear-gradient(top, #ffdd9d, #ff9a00));
+		@include single-box-shadow( rgba(0,0,0,0.4), 2px, 3px, 5px, false, false)
+
+	}
+.menu_box
+	{
+		border-right: 1px solid #a25f12;
+	}
+
+
+/*main end*/
+
+/* footer  未完成*/
+.footer
+	{
+		
+		width: 100%;
+		height: 104px;
+		padding-top: 12px;
+		padding-left: 18px;
+		@include box-sizing(border-box);
+		background-image: url(../images/main_74.png);
+	}
+/*.position
+	{
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}*/
+.info
+	{
+
+		height: 80px;
+		padding-left: 18px;
+		/*position: absolute;
+		bottom: 15px;*/
+		width: 100%;
+		z-index: 100;
+		@include box-sizing(border-box);
+
+	}
+
+.info_img
+	{
+		@include border-radius(17px, 17px);
+		@include box-sizing(border-box);
+		@include single-box-shadow( rgba(0,0,0,0.4), 2px, 3px, 5px, false, false)
+	}
+.info_cont
+	{
+		height: 63px;
+		width: 141px;
+		padding-top: 10px;
+		padding-left: 7px;
+		margin-top: 10px;
+		margin-left: 25px;
+		color: #ffffff;
+		line-height: 18px;
+		font-size: 12px;
+		background-image: url(../images/main_78.png);
+	}
+.info_cont_a
+	{
+		height: 63px;
+		width: 84px;
+		margin-top: 10px;
+		padding-top: 8px;
+		padding-left: 19px;
+		margin-left: 25px;
+		background-image: url(../images/main_84.png);
+	}
+
+.info_text
+	{
+		margin-top: 7px;
+		margin-left: 12px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

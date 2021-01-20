@@ -1,0 +1,47 @@
+@import "compass/reset";
+@import "compass/css3"; 
+.middle 
+	{
+		width: 100%;
+	}
+.us_bg
+	{
+		background-image: url(../images/main_34.png);
+		width: 100%;
+		min-height: 591px;
+		padding-bottom: 30px;
+		background-repeat: repeat-y;
+		text-align: center;
+		@include border-radius(10px, 10px);
+		@include box-sizing(border-box);
+		@include single-box-shadow( rgba(0,0,0,0.4), 2px, 3px, 5px, false, false)
+		
+	}
+.us_main
+	{
+		background-color: #ffffff;
+		@include border-radius(12px, 12px);
+		width: 587px;
+		margin-left: 32px;
+		@include box-sizing(border-box);
+		
+	}
+.us_top
+	{
+		min-height: 512px;
+		width: 100%;
+		padding-top: 21px;
+		padding-bottom: 30px;
+	}
+.us_under
+	{
+		background-image: url(../images/main_72.png);
+		width: 588px;
+		height: 432px;
+		margin-top: -9.9em;
+	}
+.us_album
+	{
+		margin-top: 12em;
+		margin-left: -25em;
+	}

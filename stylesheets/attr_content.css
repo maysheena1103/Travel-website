@@ -1,0 +1,149 @@
+/* line 17, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../sass/attr_content.scss */
+.a_c_title {
+  width: 80%;
+  height: 21px;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+/* line 12, ../sass/attr_content.scss */
+.a_c_img {
+  width: 528px;
+  height: 250px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-left: 12px;
+  margin-top: 32px;
+}
+
+/* line 20, ../sass/attr_content.scss */
+.a_c_img_a {
+  width: 133px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 99.9%;
+  background: #000000;
+  padding-left: 8px;
+  position: relative;
+}
+
+/* line 30, ../sass/attr_content.scss */
+.arrow_u {
+  position: absolute;
+  top: 0px;
+  left: -1px;
+  z-index: 100;
+}
+
+/* line 37, ../sass/attr_content.scss */
+.arrow_d {
+  position: absolute;
+  bottom: 0px;
+  left: -1px;
+  z-index: 100;
+}
+
+/* line 44, ../sass/attr_content.scss */
+.a_c_text {
+  width: 528px;
+  height: 286px;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 12px;
+  margin-top: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 54, ../sass/attr_content.scss */
+.a_c_map {
+  margin-top: 38px;
+  margin-left: 12px;
+  width: 362px;
+  height: 190px;
+}
+
+/* line 62, ../sass/attr_content.scss */
+.us_under {
+  margin-top: -18em;
+}
+
+/* line 66, ../sass/attr_content.scss */
+.a_c_back {
+  margin-top: 15em;
+  float: right;
+  margin-right: 3em;
+}
+
+/* line 72, ../sass/attr_content.scss */
+.l_img {
+  margin-top: 4px;
+}

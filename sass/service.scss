@@ -1,0 +1,80 @@
+@import "compass/reset";
+@import "compass/css3"; 
+.middle 
+	{
+		width: 100%;
+		min-height: 835px;
+	}
+.us_under
+	{
+		background-image: url(../images/service3_18.png);
+		width: 588px;
+		height: 343px;
+	}
+.us_top
+	{
+		text-align: left;
+		margin-left: 30px;
+		@include box-sizing(border-box);
+	}
+.us_top_a
+	{
+		text-align: left;
+		margin-left: 110px;
+		@include box-sizing(border-box);
+	}
+.day_box
+	{
+		width: 363px;
+		height: 80px;
+		margin-top: 30px;
+		@include box-sizing(border-box);
+	}
+.day_b
+	{
+		height: 28px;
+		width: 161px;
+	}
+.day_title
+	{
+		
+		height: 15px;
+		padding-left: 7px;
+		color: #e45513;
+		font-size: 13px;
+	}
+.day_underline
+	{
+		height: 14px;
+		width: 100%;
+	}
+.day_title_a
+	{
+		width: 98%;
+		color: #505050;
+		font-size: 11px;
+		padding-left: 7px;
+		line-height: 15px;
+		border-bottom: 1px solid #cdcdcd;
+		min-height: 37px;
+		letter-spacing: -0.3px;
+		padding-bottom: 6px;
+	}
+.more_a
+	{
+		float: right;
+		
+	}
+.day_time
+	{
+		font-size: 12px;
+		color: #b4b4b5;
+		margin-top: 8px;
+		float: right;
+	}
+.page 
+	{
+		width: 64%;
+		margin-left: 110px;
+		padding-top: 10em;
+	}
